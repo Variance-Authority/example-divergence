@@ -1,0 +1,21 @@
+{
+  "name": "@variance-authority/example-divergence",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One component, one set of props, two renderings at one commit.",
+  "scripts": {
+    "test": "vitest run",
+    "variance": "variance"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@variance-authority/cli": "^0.0.0-beta.1",
+    "@variance-authority/react": "^0.0.0-beta.1",
+    "@variance-authority/unit-test": "^0.0.0-beta.1",
+    "jsdom": "^25.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vitest": "^2.1.9"
+  }
+}
